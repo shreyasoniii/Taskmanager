@@ -1,0 +1,16 @@
+# Ignore local application properties that may contain secrets
+# Ignore the source properties (used by the app) so local overrides are not committed
+/src/main/resources/application.properties
+
+# Also ignore build output copy
+/target/classes/application.properties
+
+# Maven target directory
+/target/
+
+# IntelliJ project files
+/.idea/
+
+# OS files
+.DS_Store
+
